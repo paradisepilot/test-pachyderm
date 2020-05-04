@@ -1,0 +1,63 @@
+Sending build context to Docker daemon  975.4kB
+Step 1/1 : FROM pachyderm/opencv:latest
+latest: Pulling from pachyderm/opencv
+bf5d46315322: Pulling fs layer
+9f13e0ac480c: Pulling fs layer
+e8988b5b3097: Pulling fs layer
+40af181810e7: Pulling fs layer
+e6f7c7e5c03e: Pulling fs layer
+12d35b297de6: Pulling fs layer
+d6144d24cb19: Pulling fs layer
+d826d7a29316: Pulling fs layer
+9feb6c636749: Pulling fs layer
+aaf466247922: Pulling fs layer
+a22ecdc3d5dc: Pulling fs layer
+40af181810e7: Waiting
+e6f7c7e5c03e: Waiting
+12d35b297de6: Waiting
+d6144d24cb19: Waiting
+d826d7a29316: Waiting
+9feb6c636749: Waiting
+aaf466247922: Waiting
+a22ecdc3d5dc: Waiting
+9f13e0ac480c: Verifying Checksum
+9f13e0ac480c: Download complete
+e8988b5b3097: Verifying Checksum
+e8988b5b3097: Download complete
+e6f7c7e5c03e: Verifying Checksum
+e6f7c7e5c03e: Download complete
+40af181810e7: Download complete
+12d35b297de6: Download complete
+d6144d24cb19: Verifying Checksum
+d6144d24cb19: Download complete
+9feb6c636749: Verifying Checksum
+9feb6c636749: Download complete
+bf5d46315322: Verifying Checksum
+bf5d46315322: Download complete
+a22ecdc3d5dc: Verifying Checksum
+a22ecdc3d5dc: Download complete
+aaf466247922: Verifying Checksum
+aaf466247922: Download complete
+d826d7a29316: Retrying in 5 seconds
+d826d7a29316: Retrying in 4 seconds
+d826d7a29316: Retrying in 3 seconds
+d826d7a29316: Retrying in 2 seconds
+d826d7a29316: Retrying in 1 second
+d826d7a29316: Verifying Checksum
+d826d7a29316: Download complete
+bf5d46315322: Pull complete
+9f13e0ac480c: Pull complete
+e8988b5b3097: Pull complete
+40af181810e7: Pull complete
+e6f7c7e5c03e: Pull complete
+12d35b297de6: Pull complete
+d6144d24cb19: Pull complete
+d826d7a29316: Pull complete
+9feb6c636749: Pull complete
+aaf466247922: Pull complete
+a22ecdc3d5dc: Pull complete
+Digest: sha256:38e947bccc9c8e1034026033c6fb1e605e35929caf4f7fe11115cf5a1e84859a
+Status: Downloaded newer image for pachyderm/opencv:latest
+ ---> a2e24dc1bdd6
+Successfully built a2e24dc1bdd6
+Successfully tagged demo-pachyderm:1.0
