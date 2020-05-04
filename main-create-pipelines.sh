@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Establish connection to Pachyderm server
+# Establish connection to Pachyderm server.
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ###
 pachctl create repo pachyderm-demo-images
@@ -14,12 +14,4 @@ pachctl create pipeline -f pachyderm-demo-edges.json
 pachctl create pipeline -f pachyderm-demo-montage.json
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ###
-#pachctl get file pachyderm-demo-images@master:liberty.png  > pachyderm-demo-images-liberty.png
-#pachctl get file pachyderm-demo-images@master:AT-AT.png    > pachyderm-demo-images-AT-AT.png
-#pachctl get file pachyderm-demo-images@master:kitten.png   > pachyderm-demo-images-kitten.png
-
-#pachctl get file pachyderm-demo-edges@master:liberty.png   > pachyderm-demo-edges-liberty.png
-#pachctl get file pachyderm-demo-edges@master:AT-AT.png     > pachyderm-demo-edges-AT-AT.png
-#pachctl get file pachyderm-demo-edges@master:kitten.png    > pachyderm-demo-edges-kitten.png
-#pachctl get file pachyderm-demo-montage@master:montage.png > pachyderm-demo-montage-montage.png
 
