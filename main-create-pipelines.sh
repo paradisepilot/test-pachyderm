@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# echo '{"pachd_address": "grpcs://grpc-hub-c0-be9jiqri9p.clusters.pachyderm.io:31400", "source": 2}' | pachctl config set context pachyderm-demo-cluster-x01kmpjlpz && pachctl config set active-context pachyderm-demo-cluster-x01kmpjlpz
-
-# pachctl auth login --one-time-password
+# Establish connection to Pachyderm server
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ###
 pachctl create repo pachyderm-demo-images
